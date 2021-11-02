@@ -2,11 +2,11 @@
 ##### *Nome do projeto a definir*
 
 ## Equipe
-- Vinícius Luiz da Silva França
-- Daniel Moraes Costa Andrade
-- Luis Gabriel Lima Loureiro Xavier
-- Alexsandro Henrique
-- João Pedro Veloso Souto Maior
+- Vinícius Luiz da S. França
+- Daniel Moraes C. Andrade
+- Luis Gabriel L. L. Xavier
+- Alexsandro Henrique A. de S. Lima
+- João Pedro V. S. Maior
 
 ## Objetivo
 
