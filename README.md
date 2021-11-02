@@ -1,4 +1,5 @@
-# Projeto-ES - Equipamentos de Monitoramento e Fiscalização de Trânsito
+# Projeto de Engenharia de Software - Equipamentos de Monitoramento e Fiscalização de Trânsito
+##### *Nome do projeto a definir*
 
 ## Equipe
 - Vinícius Luiz da Silva França
