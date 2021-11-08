@@ -1,4 +1,3 @@
-# Projeto de Engenharia de Software - Equipamentos de Monitoramento e Fiscalização de Trânsito
 ##### *Nome do projeto a definir*
 # Projeto de Engenharia de Software - Empresas da Cidade do Recife
 
