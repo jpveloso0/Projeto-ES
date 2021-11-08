@@ -3,7 +3,9 @@
 
 ## Equipe
 - Vinícius Luiz da S. França
-@@ -9,5 +8,7 @@
+- Alexsandro Henrique
+- Daniel M. C. Andrade
+- Luis Gabriel L. L. Xavier
 - João Pedro V. S. Maior
 
 ## Objetivo
