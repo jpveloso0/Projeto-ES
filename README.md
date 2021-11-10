@@ -1,5 +1,5 @@
 ##### *Nome do projeto a definir*
-# Projeto de Engenharia de Software - Empresas da Cidade do Recife
+# Projeto de Engenharia de Software - Compras Governamentais
 
 ## Equipe
 - Vinícius Luiz da S. França
@@ -9,7 +9,7 @@
 - João Pedro V. S. Maior
 
 ## Objetivo
-Oferecer um software capaz de apresentar de maneira gráfica a localização e outras informações de empresas localizadas em Recife com base em informações buscadas pelo usuário.
+Nosso propósito, inicialmente, é apresentar de maneira clara e intuitiva informações de extrema valia sobre as operações de compras do Governo Federal para os usuários com o intuito de promover a transparência dos gastos públicos através da implementação da política brasileira de dados abertos.
 
 ## Justificativa
-Nosso propósito, inicialmente, é fornecer dados de extrema valia para usuários buscarem serviços de modo fácil e prático, assim, ajudando a movimentar a economia da nossa cidade.
+-
