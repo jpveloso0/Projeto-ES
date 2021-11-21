@@ -1,0 +1,46 @@
+.mainNav{
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+}
+
+.inputs{
+    margin: 5rem 0 10rem 0;
+    background-color: var(--color_light);
+    width: 70%;
+    height: 3rem;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input, button{
+    background-color: var(--color_light_2);
+    color: black;
+    border: none;
+    border-radius: 3px;
+    height: 60%;
+}
+
+button {
+    background-color: var(--color_main);
+    color: var(--color_font)
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.date{
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    height: 1.7rem;
+}
+
+label{
+    color: var(--color_details);
+    padding-right: 5px;
+}

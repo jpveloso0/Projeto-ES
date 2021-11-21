@@ -1,0 +1,41 @@
+header {
+    margin:0;
+    padding: 0;
+    height: 3.5rem;
+    border: 1px solid var(--color_main);
+    background-color: var(--color_main);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    color: var(--color_font);
+    font-size: 2rem;
+}
+
+.navUrl {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.urls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    background-color: var(--color_main);
+    border-right: 1px solid var(--color_details);
+    color: var(--color_font);
+    text-decoration: none;
+    transition: .3s ease-out;
+}
+
+.urls:hover {
+    background-color: var(--color_secondary);
+}

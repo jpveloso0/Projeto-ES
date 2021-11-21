@@ -1,0 +1,28 @@
+:root{
+    --color_font: rgb(238, 238, 238);
+    --color_main: rgb(44, 103, 190);
+    --color_secondary: rgb(34, 76, 138);
+    --color_details: rgb(27, 64, 119);
+    --color_light: rgb(188, 215, 255);
+    --color_light_2: rgb(166, 190, 223);
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    background-color: whitesmoke;
+}
+
+.row{
+  width: 100%;
+  margin: 10rem 0 10rem 0;
+}
+
+.titulo{
+  color: var(--color_details);
+  margin: 1rem 0 1rem 0;
+  font-size: 18px;
+}
