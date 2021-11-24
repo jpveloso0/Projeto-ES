@@ -2,7 +2,7 @@
 
 ##### *Nome do projeto a definir*
 
-<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#justificativa">Justificativa</a> • <a href="#screenshots (beta)">Screenshots</a> • </p>
+<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#justificativa">Justificativa</a> • <a href="#screenshots(beta)">Screenshots</a> • </p>
 
 # Projeto de Engenharia de Software - Acidentes de Trânsito Recife/PE
 
@@ -19,5 +19,23 @@ Nosso propósito, inicialmente, é apresentar para os usuários de maneira clara
 ## Justificativa
 Pesquisas apontam que mais de 60% dos leitos hospitalares do Brasil são ocupados por acidentes de trânsito. Atualmente, um brasileiro morre a cada 17 minutos no nosso país, vítima de um acidente de trânsito. Com isso, nosso intuito de prover conhecimento das regiões e características mais perigosas nas ruas da nossa cidade com o objetivo de conscientizar os usuários a realizar boas práticas no trânsito.
 
-## Screenshots (Beta)
+## Screenshots(Beta)
+Homepage
+![Homepage](Protótipo/Slide1.png)
 
+Página que apresenta informações sobre acidentes categorizados por bairro;
+Ao passar o mouse sobre um bairro (componente à esquerda), as informações mais detalhadas sobre este bairro são apresentadas no componente à direita
+![Ranking de bairros](Protótipo/Slide2.png)
+
+Ao clicar em um bairro, o usuário será direcionado para uma página que apresenta informações sobre acidentes categorizados por rua deste bairro
+![Ranking de bairros](Protótipo/Slide3.png)
+
+Página que apresenta informações sobre acidentes categorizados por rua deste bairro
+Ao passar o mouse sobre uma rua (componente à esquerda), as informações mais detalhadas sobre esta rua são apresentadas no componente à direita
+![Ranking de ruas do bairro](Protótipo/Slide4.png)
+
+Ao clicar em um rua, o usuário será direcionado para uma página que apresenta uma mapa da localização desta rua
+![Ranking de ruas do bairro](Protótipo/Slide5.png)
+
+Página que apresenta o mapa da localização da rua
+![Mapa](Protótipo/Slide6.png)
