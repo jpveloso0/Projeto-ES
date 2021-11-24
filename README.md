@@ -2,7 +2,7 @@
 
 ##### *Nome do projeto a definir*
 
-<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#justificativa">Justificativa</a> • <a href="#história_do_usuário">História do Usuário</a> • <a href="#screenshots">Screenshots</a> • </p>
+<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#justificativa">Justificativa</a> • <a href="#usuário">História do Usuário</a> • <a href="#screenshots">Screenshots</a> • </p>
 
 # Projeto de Engenharia de Software - Acidentes de Trânsito Recife/PE
 
