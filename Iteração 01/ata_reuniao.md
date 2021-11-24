@@ -9,7 +9,7 @@ Data         | Local
 
 
 ### Participantes
-* Daniel Moraes (dmca)
+* Daniel Moraes
 * Vinicius Luiz 
 * João Pedro
 * Alexandro Henrique
