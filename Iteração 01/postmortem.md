@@ -10,14 +10,16 @@ Início da Iteração | Término da iteração
 ### O que estava planejado
 | Atividade | Atribuição |
 | --- | --- |
-| Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@pessoa1`, `@pessoa2`, `@pessoa3` |
-| Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! | `@todos` |
+| Definir tecnologias a serem utilizadas. | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
+| Encontrar uma API compatível com a nossa ideia. | `@dmca`,`@vlsf2` |
+| Construir o protótipo do software. | `@dmca`,`@vlsf2` |
+| Definir a principal função de cada integrante da equipe. | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
 
 ### O que foi feito
 | Atividade | Atribuição |
 | --- | --- |
-| Criação do GitHub." | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl` |
-| Conectar Firebase com o projeto." | `@jpsmlv` |
+| Criação do GitHub. | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl` |
+| Conectar Firebase com o projeto. | `@jpsmlv` |
 | Realizar upload da amostra da nossa base de dados JSON p/ Firebase. | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl` |
 | Produção do Back-End do projeto. | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl` |
 | Criar versão Beta da homepage. | `@vlsf2` |
@@ -40,10 +42,3 @@ Início da Iteração | Término da iteração
 * Trabalho em equipe utilizando pontos fortes de cada integrante pode acelerar o processo de construção do software.
 * Para otimização das atividades é de suma importância a participação ativa de todos os integrantes.
 * Aprendemos na prática a definição de "falhar rápido", que faz parte da metodologia ágil.
-
-
-jpsmlv
-dmca
-vlsf2
-lgllx
-ahasl
