@@ -21,10 +21,10 @@ Pesquisas apontam que mais de 60% dos leitos hospitalares do Brasil são ocupado
 
 ## História do Usuário
 
-```Oi ```  
-```Oi ```  
-```Oi ```  
-```Oi ```  
+```Como estudante, eu gostaria de utilizar dados de acidentes do Recife para uma finalidade acadêmica. ```  
+```Como usuário, eu gostaria de ver o ranking de bairros do Recife com mais acidentes.```  
+```Como usuário, eu gostaria de visualizar graficamente dados estatísticos dos acidentes na cidade de Recife. ```  
+```Como funcionário público de segurança, gostaria de entender estatisticamente como está sendo distribuído os acidentes na cidade do Recife. ```  
 
 ## Screenshots
 Homepage
