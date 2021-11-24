@@ -1,5 +1,5 @@
-```markdown
-![Badge](https://img.shields.io/badge/Em desenlvolvimento-v0.1-%9399ff?style=for-the-badge&logo=ghost)
+```html
+<img src="https://img.shields.io/static/v1?label=v0.1&message=Em desenvolvimento&color=9399ff&style=for-the-badge&logo=ghost"/>
 ```
 
 ##### *Nome do projeto a definir*
