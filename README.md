@@ -11,7 +11,7 @@
 - Alexsandro Henrique
 - Daniel M. C. Andrade
 - Luis Gabriel L. L. Xavier
-- João Pedro V. S. Maior
+- João Pedro S. M. L. Veloso
 
 ## Objetivo
 Nosso propósito, inicialmente, é apresentar para os usuários de maneira clara e intuitiva informações de sobre os acidentes de trânsito em Recife através da implementação da política brasileira de dados abertos.
@@ -25,6 +25,17 @@ Pesquisas apontam que mais de 60% dos leitos hospitalares do Brasil são ocupado
 ```Como usuário, eu gostaria de ver o ranking de bairros do Recife com mais acidentes.```  
 ```Como usuário, eu gostaria de visualizar graficamente dados estatísticos dos acidentes na cidade de Recife. ```  
 ```Como funcionário público de segurança, gostaria de entender estatisticamente como está sendo distribuído os acidentes na cidade do Recife. ```  
+
+## Arquitetura da Aplicação
+
+* Front-end
+  ReactJS
+  Bootstrap
+----------------
+* Backend
+  Firebase
+  NodeJS
+
 
 ## Screenshots
 Homepage
