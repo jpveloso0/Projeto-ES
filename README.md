@@ -2,7 +2,7 @@
 
 ##### *Nome do projeto a definir*
 
-<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#justificativa">Justificativa</a> • <a href="#história-do-usuário">História do Usuário</a> • <a href="#screenshots">Screenshots</a> • </p>
+<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#justificativa">Justificativa</a> • <a href="#história-do-usuário">História do Usuário</a> •  <a href="#arquitetura-da-aplicacação">Arquitetura da Aplicação</a> • <a href="#screenshots">Screenshots</a> • </p>
 
 # Projeto de Engenharia de Software - Acidentes de Trânsito Recife/PE
 
@@ -28,13 +28,13 @@ Pesquisas apontam que mais de 60% dos leitos hospitalares do Brasil são ocupado
 
 ## Arquitetura da Aplicação
 
-* Front-end
-  ReactJS
-  Bootstrap
-----------------
-* Backend
-  Firebase
-  NodeJS
+* Front-end  
+  ReactJS  
+  Bootstrap    
+  
+* Back-end    
+  Firebase  
+  NodeJS  
 
 
 ## Screenshots
