@@ -1,9 +1,5 @@
 import initializeApp from 'firebase/app';
-//import initializeApp from 'firebase/app';
-//import { getFirestore, collection, getDocs } from 'firebase/firestore';
-import getFirestore from 'firebase/firestore';
-import collection from 'firebase/firestore';
-import getDocs from 'firebase/firestore';
+import { getFirestore, collection, getDocs } from 'firebase/firestore';
 
 
 // TODO: Replace the following with your app's Firebase project configuration
@@ -26,12 +22,12 @@ export const db = getFirestore(app);
 
 const caminhoCollection = collection(db, "acidentes");
 
-const getAcidentes = async() => {
-    // get acidentes
-    const data = await getDocs(caminhoCollection);
-    // map pra extrair dados
-    const dados = data.docs.map((doc) => ({...doc.data(), id: doc.id }));
-    console.log(dados)
-};
+// const getAcidentes = async() => {
+//     // get acidentes
+//     const data = await getDocs(caminhoCollection);
+//     // map pra extrair dados
+//     const dados = data.docs.map((doc) => ({...doc.data(), id: doc.id }));
+//     console.log(dados)
+// };
 
 export default app

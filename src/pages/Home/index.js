@@ -7,6 +7,9 @@ const Home = (props) => {
     const [de, setDe]   = useState(0);
     const [ate, setAte] = useState(0);
     const [bairro, setBairro] = useState(0)
+    const propsTo = {
+        pathname: `/bairros/${de}&${ate}&${bairro}`,
+    }
     return (
         <section className = 'container-fluid mainNav'>
             <div className='inputs'>
@@ -20,7 +23,7 @@ const Home = (props) => {
                     <input className='date' type = "date" id = "ate" name="ate" value = {ate} onChange={(e) => setAte(e.target.value)} required/>
                 </div>
                 <div>
-                    <Button className='button' type = "submit" onClick={() => console.log(de, ate, bairro)}><Link to='/bairros'>Buscar</Link></Button>
+                    <Button className='button' type = "submit"><Link to={propsTo}><strong>Buscar</strong></Link></Button>
                 </div>
             </div>
         </section>

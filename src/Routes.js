@@ -8,7 +8,7 @@ const listRoutes = () => {
       <Routes> 
           <Route path='/' element={<Home/>}/>
           
-          <Route path='/bairros' element={<Bairros/>}/>
+          <Route path='/bairros/:de&:ate&:bairro' element={<Bairros/>}/>
       </Routes> 
     );
 };
