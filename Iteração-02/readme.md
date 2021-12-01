@@ -2,7 +2,7 @@
 
 ##### *Nome do projeto a definir*
 
-<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#arquitetura-de-informação-modelo-er">Arquitetura de Informação  Modelo ER</a> • <a href="#história-do-usuário">História do Usuário</a> •  <a href="#arquitetura-da-aplicação">Arquitetura da Aplicação</a> • <a href="#screenshots">Screenshots</a> • </p>
+<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#arquitetura-de-informação-modelo-er">Arquitetura de Informação  Modelo ER</a> • <a href="#deploy-de-histórias-de-usuários">Deploy de Histórias de Usuários</a> • <a href="#histórias-definidas">Histórias Definidas</a> • <a href="#arquitetura-da-aplicação">Arquitetura da Aplicação</a> • <a href="#screenshots">Screenshots</a> • </p>
 
 # Projeto de Engenharia de Software - Acidentes de Trânsito Recife/PE - Iteração 02
 
@@ -19,12 +19,16 @@ Nosso propósito, inicialmente, é apresentar para os usuários de maneira clara
 ## Arquitetura de Informação  Modelo ER
 
 
-## História do Usuário
+## Deploy de Histórias de Usuários 
 
-```Como estudante, eu gostaria de utilizar dados de acidentes do Recife para uma finalidade acadêmica. ```  
 ```Como usuário, eu gostaria de ver o ranking de bairros do Recife com mais acidentes.```  
-```Como usuário, eu gostaria de visualizar graficamente dados estatísticos dos acidentes na cidade de Recife. ```  
 ```Como funcionário público de segurança, gostaria de entender estatisticamente como está sendo distribuído os acidentes na cidade do Recife. ```  
+
+## Histórias Definidas
+
+```Como usuário, gostaria de tomar atitudes sociais a partir do estudo estatístico.```  
+```Como usuário, gostaria de visualizar indicadores dos dados para facilitar o estudo dos acidentes de trânsito no Recife.``` 
+```Como usuário, gostaria de receber dados detalhados dos acidentes de trânsito no período escolhido por mim. ```
 
 ## Arquitetura da Aplicação
 
