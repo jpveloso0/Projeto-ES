@@ -18,7 +18,7 @@ Data         | Local
 ### Objetivos
 * Produzir o software do projeto.
 * Conversar a respeito sobre o escopo.
-* 
+
 ### Tópicos Discutidos
 * A forma como será mostrada as informações do projeto.
 * Mudanças do escopo do projeto.
