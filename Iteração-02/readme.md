@@ -4,7 +4,7 @@
 
 <p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#justificativa">Justificativa</a> • <a href="#história-do-usuário">História do Usuário</a> •  <a href="#arquitetura-da-aplicação">Arquitetura da Aplicação</a> • <a href="#screenshots">Screenshots</a> • </p>
 
-# Projeto de Engenharia de Software - Acidentes de Trânsito Recife/PE
+# Projeto de Engenharia de Software - Acidentes de Trânsito Recife/PE - Iteração 02
 
 ## Equipe
 - Vinícius Luiz da S. França
