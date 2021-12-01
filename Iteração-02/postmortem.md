@@ -22,7 +22,7 @@ Início da Iteração | Término da iteração
 | --- | --- |
 | Realização do Postmortem da Iteração 02. | `@dmca` |
 | Reunião para conversar a respeito do software. |  `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
-| Desenvolvimento do Front-End | `@vlsf2` |
+| Aprender e desenvolver rotas de paginação | `@vlsf2` |
 | Desenvolvimento do Back-End | `@jpsmlv` |
 
 ### O que não foi feito
