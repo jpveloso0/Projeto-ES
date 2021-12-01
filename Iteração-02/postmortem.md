@@ -20,19 +20,20 @@ Início da Iteração | Término da iteração
 ### O que foi feito
 | Atividade | Atribuição |
 | --- | --- |
-|  | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl` |
-|  | `@jpsmlv` |
-|  | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl` |
-|  | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl` |
-|  | `@vlsf2` |
-|  | `@vlsf2` |
+| Realização do Postmortem da Iteração 02. | `@dmca` |
+| Reunião para conversar a respeito do software. |  `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
+| Desenvolvimento do Front-End | `@vlsf2` |
+| Desenvolvimento do Back-End | `@jpsmlv` |
 
 ### O que não foi feito
-* ABCD
-
+* Implementação dos Dashboards da base de dados.
+* Alterações a respeito da identidade visual.
 
 ### Planejado para próxima iteração
-* ABCD
+* Manter o Trello atualizado.
+* Realizar o Postmortem da Iteração 3.
+* Manter atualizado o Github.
+* Adiantar todo o processo de desenvolvimento do projeto.
 
 ### Lições aprendidas
-* ABCD
+* 
