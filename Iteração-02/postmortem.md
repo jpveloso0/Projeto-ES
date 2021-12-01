@@ -36,4 +36,5 @@ Início da Iteração | Término da iteração
 * Adiantar todo o processo de desenvolvimento do projeto.
 
 ### Lições aprendidas
-* 
+* Necessidade de uma organização do trabalho para distribuição de atividades.
+
