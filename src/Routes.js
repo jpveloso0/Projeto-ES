@@ -5,11 +5,11 @@ import Bairros from './pages/Bairros'
 
 const listRoutes = () => {
     return (
-      <Routes> 
+      <Routes>
           <Route path='/' element={<Home/>}/>
-          
+
           <Route path='/bairros/:de&:ate' element={<Bairros/>}/>
-      </Routes> 
+      </Routes>
     );
 };
 
