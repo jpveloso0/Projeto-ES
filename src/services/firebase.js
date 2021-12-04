@@ -22,12 +22,12 @@ export const db = getFirestore(app);
 
 const caminhoCollection = collection(db, "acidentes");
 
-// const getAcidentes = async() => {
-//     // get acidentes
-//     const data = await getDocs(caminhoCollection);
-//     // map pra extrair dados
-//     const dados = data.docs.map((doc) => ({...doc.data(), id: doc.id }));
-//     console.log(dados)
-// };
+const getAcidentes = async() => {
+    // get acidentes
+    const data = await getDocs(caminhoCollection);
+    // map pra extrair dados
+    const dados = data.docs.map((doc) => ({...doc.data(), id: doc.id }));
+    console.log(dados)
+};
 
 export default app
