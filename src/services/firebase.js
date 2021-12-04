@@ -1,4 +1,4 @@
-import * as firebase from 'firebase/app';
+import * as firebase  from 'firebase/app';
 import { getFirestore, collection, getDocs } from 'firebase/firestore';
 
 
@@ -19,15 +19,3 @@ export const db = getFirestore(app);
 
 
 // https://github.com/machadop1407/firebase-react-crud/blob/main/src/App.js
-
-const caminhoCollection = collection(db, "acidentes");
-
-const getAcidentes = async() => {
-    // get acidentes
-    const data = await getDocs(caminhoCollection);
-    // map pra extrair dados
-    const dados = data.docs.map((doc) => ({...doc.data(), id: doc.id }));
-    console.log(dados)
-};
-
-export default app
