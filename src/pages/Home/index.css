@@ -7,7 +7,7 @@
 .inputs{
     margin: 5rem 0 10rem 0;
     background-color: var(--color_light);
-    width: 70%;
+    width: 60%;
     height: 3rem;
     border-radius: 10px;
 
@@ -26,10 +26,6 @@ input, .button{
 
 .button {
     background-color: var(--color_main);
-}
-
-.button:hover{
-    background-color: var(--color_details);
 }
 
 .button a{
