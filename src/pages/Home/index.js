@@ -1,25 +1,25 @@
-import { FirebaseError } from '@firebase/util';
+
 import {React, useState}  from 'react';
 import {Link} from 'react-router-dom';
 import { Button } from 'reactstrap';
 import './index.css';
-import {getAcidentes} from "../../services/firebase"
 import { db } from '../../services/firebase';
-import { getFirestore, collection, getDocs } from 'firebase/firestore';
+import { collection, getDocs } from 'firebase/firestore';
 
 const Home = (props) => {
 
     const [de, setDe]   = useState(0);
     const [ate, setAte] = useState(0);
-    const caminhoCollection = collection(db, "acidentes");
+    const caminhoCollection = collection(db, "acidentes_teste");
     async function getAcidentes()  {
         // get acidentes
         const data = await getDocs(caminhoCollection);
+        const d = []
         // map pra extrair dados
-        data.forEach((doc) => {console.log(doc.id, '=>', doc.data());});
-        return data
+        console.log('----')
+        data.forEach((doc) => {console.log(doc.id, '=>', doc.data()); d.push(doc.data)});
+        return d
     };
-
 
     const propsTo = {
         pathname: `/bairros/${de}&${ate}`,
@@ -36,7 +36,7 @@ const Home = (props) => {
                     <input className='date' type = "date" id = "ate" name="ate" value = {ate} onChange={(e) => setAte(e.target.value)} required/>
                 </div>
                 <div>
-                    <Button className='button' type = "submit" onClick= {console.log(getAcidentes())}>
+                    <Button className='button' type = "submit" onClick= {() => console.log(getAcidentes())}>
                         <Link to={propsTo}><strong>Buscar</strong></Link>
                     </Button>
                 </div>
