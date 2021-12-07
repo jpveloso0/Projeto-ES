@@ -3,7 +3,7 @@ import './index.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import React from "react";
+import React, { useState, useEffect} from "react";
 import {useParams} from 'react-router-dom';
 import ListBairros from '../../components/ListBairros';
 import BairroDetail from '../../components/BairroDetail';
@@ -14,6 +14,9 @@ import { collection, getDocs } from 'firebase/firestore';
 const Bairros = (props) => {
     const {de} = useParams()
     const {ate} = useParams()
+    // useState para alterar os dados após o request
+    const [acidentes, setAcidentes] = useState();
+    const [bairroAtual, setBairroAtual] = useState(null);
 
     const caminhoCollection = collection(db, "acidentes_teste");
 
@@ -25,33 +28,33 @@ const Bairros = (props) => {
             //doc.id
             d.push(doc.data())
         });
-        return d
+        // após o request, é setado o d no state acidentes.
+        setAcidentes(d);
     };
 
-    async function groupbyAcidentes() {
-        const data = await getAcidentes();
-        var result = []
-        data.reduce(function(dic, acd){
-            if(!dic[acd.bairro]){
-                dic[acd.bairro] = {bairro: acd.bairro, qtd: 0};
-                result.push(dic[acd.bairro])
-            }
-            dic[acd.bairro].qtd += 1;
-            return dic
-        }, {});
-        result.sort(function(a,b) {return a.qtd > b.qtd ? -1 : a.qtd > b.qtd ? 1 : 0});
-        return result
-     }
+
+    // useEffect para chamar a função quando o componente for montado
+    useEffect(() => {
+        getAcidentes();
+    }, [])
+
+
+    const selectedData = (selectedBairro) => {
+        setBairroAtual(selectedBairro);
+    }
+
 
     return (
         <div className = "App">
             <h2 className='titulo text-center'><strong>RANKING DE ACIDENTES POR BAIRROS</strong></h2>
             <div className = 'row'>
                 <div className = 'col-lg-5'>
-                    <ListBairros de={de} ate={ate} data={groupbyAcidentes()}/>
+                    <ListBairros de={de} ate={ate} data={acidentes} selectedData={selectedData} />
                 </div>
                 <div className = 'col-lg-7'>
-                    <BairroDetail/>
+                    {bairroAtual && bairroAtual.bairro}
+                    {bairroAtual && bairroAtual.qtd}
+                    <BairroDetail bairroAtual={bairroAtual} />
                 </div>
             </div>
         </div>
