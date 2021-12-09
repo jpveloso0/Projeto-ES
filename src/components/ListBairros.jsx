@@ -55,16 +55,6 @@ function ListBairros(props) {
           result.push(dic[acd.bairro]);
         }
         dic[acd.bairro].qtd += 1;
-        if     (acd.natureza_acidente === "COM VÍTIMA"){ dic[acd.bairro].c_vitima += 1 }
-        else if(acd.natureza_acidente === "VÍTIMA FATAL"){dic[acd.bairro].c_vitima_fatal += 1}
-        if     (acd.tipo === "ALAGAMENTO"){ dic[acd.bairro].tipo_alagamento += 1}
-        else if(["ATROPELAMENTO", "ATROPELAMENTO DE ANIMAL", "ATROPELAMENTO DE PESSOA"].includes(acd.tipo)){ dic[acd.bairro].tipo_atropelamento += 1}
-        else if(acd.tipo === "CAPOTAMENTO"){ dic[acd.bairro].tipo_capotamento += 1}
-        else if(acd.tipo === "CHOQUE"){ dic[acd.bairro].tipo_choque += 1}
-        else if(["COLISÃO", "COLISÃO COM CICLISTA", "COLISÃO FRONTAL", "COLISÃO LATERAL", "COLISÃO TRANSVERSAL", "COLISÃO TRASEIRA"].includes(acd.tipo)){ dic[acd.bairro].tipo_colisao += 1}
-        else if(acd.tipo === "QUEDA"){ dic[acd.bairro].tipo_queda += 1}
-        else if(acd.tipo === "TOMBAMENTO"){ dic[acd.bairro].tipo_tombamento += 1}
-        else{ dic[acd.bairro].tipo_outros += 1 }
         dic[acd.bairro].qtd_auto += parseInt(acd.auto);
         dic[acd.bairro].qtd_moto += parseInt(acd.moto);
         dic[acd.bairro].qtd_ciclom += parseInt(acd.ciclom);
@@ -76,17 +66,68 @@ function ListBairros(props) {
         dic[acd.bairro].qtd_outros += parseInt(acd.outros);
         dic[acd.bairro].qtd_vitimas += parseInt(acd.vitimas);
         dic[acd.bairro].qtd_vitimasfatais += parseInt(acd.vitimasfatais);
-        if      (acd.acidente_verificado === "Longo da via"){ dic[acd.bairro].local_longo_via += 1 }
-        else if (acd.acidente_verificado === "Cruzamento"){ dic[acd.bairro].local_cruzamento += 1 }
-        else{dic[acd.bairro].local_outros += 1}
-        if (acd.tempo_clima === "Bom"){dic[acd.bairro].tempo_bom += 1}
-        if (acd.tempo_clima === "Chuvoso"){dic[acd.bairro].tempo_chuvoso += 1}
-        else{dic[acd.bairro].tempo_outros += 1}
-        if(acd.condicao_via === "Seca"){dic[acd.bairro].pista_seca += 1}
-        else if(acd.condicao_via === "Molhada"){dic[acd.bairro].pista_molhada += 1}
-        if(acd.conservacao_via === "Perfeito estado"){dic[acd.bairro].pista_conservacao_perfeita += 1}
-        else if(acd.conservacao_via === "Mal conservada"){dic[acd.bairro].pista_conservacao_mal_cons += 1}
-        else if(acd.conservacao_via === "Mal iluminada"){dic[acd.bairro].pista_conservacao_mal_ilum += 1}
+
+        try {
+          if     (parseInt(acd.hora.substring(0,2)) <= 4){ dic[acd.bairro].periodo_madrugada +=1 }
+          else if(parseInt(acd.hora.substring(0,2)) <= 11){ dic[acd.bairro].periodo_manha += 1 }
+          else if(parseInt(acd.hora.substring(0,2)) <= 17){ dic[acd.bairro].periodo_tarde += 1 }
+          else if(parseInt(acd.hora.substring(0,2)) <= 23){ dic[acd.bairro].periodo_noite += 1 }  
+        } catch (error) {
+          console.warn(error)
+        }
+
+        try {
+          if     (acd.natureza_acidente === "COM VÍTIMA"){ dic[acd.bairro].c_vitima += 1 }
+          else if(acd.natureza_acidente === "VÍTIMA FATAL"){dic[acd.bairro].c_vitima_fatal += 1}
+        } catch (error) {
+          console.warn(error)
+        }
+
+        try {
+          if     (acd.tipo === "ALAGAMENTO"){ dic[acd.bairro].tipo_alagamento += 1}
+          else if(["ATROPELAMENTO", "ATROPELAMENTO DE ANIMAL", "ATROPELAMENTO DE PESSOA"].includes(acd.tipo)){ dic[acd.bairro].tipo_atropelamento += 1}
+          else if(acd.tipo === "CAPOTAMENTO"){ dic[acd.bairro].tipo_capotamento += 1}
+          else if(acd.tipo === "CHOQUE"){ dic[acd.bairro].tipo_choque += 1}
+          else if(["COLISÃO", "COLISÃO COM CICLISTA", "COLISÃO FRONTAL", "COLISÃO LATERAL", "COLISÃO TRANSVERSAL", "COLISÃO TRASEIRA"].includes(acd.tipo)){ dic[acd.bairro].tipo_colisao += 1}
+          else if(acd.tipo === "QUEDA"){ dic[acd.bairro].tipo_queda += 1}
+          else if(acd.tipo === "TOMBAMENTO"){ dic[acd.bairro].tipo_tombamento += 1}
+          else{ dic[acd.bairro].tipo_outros += 1 }  
+        } catch (error) {
+          console.warn(error)
+        }
+
+        try {
+          if      (acd.acidente_verificado === "Longo da via"){ dic[acd.bairro].local_longo_via += 1 }
+          else if (acd.acidente_verificado === "Cruzamento"){ dic[acd.bairro].local_cruzamento += 1 }
+          else{dic[acd.bairro].local_outros += 1}  
+        } catch (error) {
+          console.warn(error)
+        }
+        
+        try {
+          if (acd.tempo_clima === "Bom"){dic[acd.bairro].tempo_bom += 1}
+          else if (acd.tempo_clima === "Chuvoso"){dic[acd.bairro].tempo_chuvoso += 1}
+          else{dic[acd.bairro].tempo_outros += 1}  
+        } catch (error) {
+          console.warn(error)
+        }
+
+        try {
+          if(acd.condicao_via === "Seca"){dic[acd.bairro].pista_seca += 1}
+          else if(acd.condicao_via === "Molhada"){dic[acd.bairro].pista_molhada += 1}  
+        } catch (error) {
+          console.warn(error)
+        }
+        
+        try {
+          if(acd.conservacao_via === "Perfeito estado"){dic[acd.bairro].pista_conservacao_perfeita += 1}
+          else if(acd.conservacao_via === "Mal conservada"){dic[acd.bairro].pista_conservacao_mal_cons += 1}
+          else if(acd.conservacao_via === "Mal iluminada"){dic[acd.bairro].pista_conservacao_mal_ilum += 1}  
+        } catch (error) {
+          console.warn(error)
+        }
+        
+        
         return dic;
       }, {});
 
@@ -119,7 +160,7 @@ function ListBairros(props) {
         ))
       ) : (
         <ListGroupItem action id="bairro" tag="button" onClick={() => selectedData({bairro: "nome", qtd: 12})}>
-          Erro ao carregar os dados
+          Carregando...
         </ListGroupItem>
       )}
       {console.log(currentData)}

@@ -46,12 +46,12 @@ const Bairros = (props) => {
         <div className = "App">
             <h2 className='titulo text-center'><strong>RANKING DE ACIDENTES POR BAIRROS</strong></h2>
             <div className = 'row'>
-                <div className = 'col-lg-5'>
+                <div className = 'listbairrosmain col-lg-4'>
                     <ListBairros de={de} ate={ate} data={acidentes} selectedData={selectedData} />
                 </div>
-                <div className = 'col-lg-7'>
-                    {bairroAtual && bairroAtual.bairro}
-                    {bairroAtual && bairroAtual.qtd}
+                <div className = 'bairrodetailmain col-lg-8'>
+                    {/* {bairroAtual && bairroAtual.bairro}
+                    {bairroAtual && bairroAtual.qtd} */}
                     <BairroDetail bairroAtual={bairroAtual} />
                 </div>
             </div>

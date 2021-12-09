@@ -26,3 +26,8 @@ body {
   margin: 1rem 0 1rem 0;
   font-size: 18px;
 }
+
+.listbairrosmain{
+  height: 15rem;
+  overflow-y: scroll;
+}
