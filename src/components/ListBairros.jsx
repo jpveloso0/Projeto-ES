@@ -15,10 +15,10 @@ function ListBairros(props) {
         if (!dic[acd.bairro]) {
           dic[acd.bairro] = { bairro: acd.bairro
                               , qtd: 0
-                              , periodo_manha: 0 //05:00 - 11:59     -- PENDENTE
-                              , periodo_tarde: 0 //12:00 - 17:59     -- PENDENTE
-                              , periodo_noite: 0 //18:00 - 23:59     -- PENDENTE
-                              , periodo_madrugada: 0 //00:00 - 04:59 -- PENDENTE
+                              , periodo_manha: 0 //05:00 - 11:59    
+                              , periodo_tarde: 0 //12:00 - 17:59    
+                              , periodo_noite: 0 //18:00 - 23:59    
+                              , periodo_madrugada: 0 //00:00 - 04:59
                               , c_vitima: 0 //natureza_acidente
                               , c_vitima_fatal: 0 //nataureza_acidente
                               , tipo_alagamento: 0 //tipo
@@ -159,7 +159,7 @@ function ListBairros(props) {
           </ListGroupItem>
         ))
       ) : (
-        <ListGroupItem action id="bairro" tag="button" onClick={() => selectedData({bairro: "nome", qtd: 12})}>
+        <ListGroupItem action id="bairro" tag="button">
           Carregando...
         </ListGroupItem>
       )}

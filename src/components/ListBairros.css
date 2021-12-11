@@ -1,4 +1,12 @@
 .lisitgroup{
-    margin: 5rem 0 5rem 0;
+    margin: 5rem 0 0 1rem;
     border: 1px solid whitesmoke;
+}
+
+#bairro{
+    font-weight: 700;
+    color: var(--color_details);
+    background-color: var(--color_light);
+    margin: 0.2rem 0 0.2rem 0;
+    border-radius: 3px;
 }

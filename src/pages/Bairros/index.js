@@ -1,10 +1,11 @@
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import React, { useState, useEffect} from "react";
-import {useParams} from 'react-router-dom';
+import {React, useState, useEffect} from "react";
+import { useParams } from 'react-router-dom';
 import ListBairros from '../../components/ListBairros';
 import BairroDetail from '../../components/BairroDetail';
+import {UncontrolledCollapse} from 'reactstrap';
+
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { db } from '../../services/firebase';
 import { collection, getDocs } from 'firebase/firestore';
@@ -49,11 +50,9 @@ const Bairros = (props) => {
                 <div className = 'listbairrosmain col-lg-4'>
                     <ListBairros de={de} ate={ate} data={acidentes} selectedData={selectedData} />
                 </div>
-                <div className = 'bairrodetailmain col-lg-8'>
-                    {/* {bairroAtual && bairroAtual.bairro}
-                    {bairroAtual && bairroAtual.qtd} */}
+                <UncontrolledCollapse defaultOpen = {true} toggler="#bairro" className = 'bairrodetailmain col-lg-8'> 
                     <BairroDetail bairroAtual={bairroAtual} />
-                </div>
+                </UncontrolledCollapse>
             </div>
         </div>
     )
