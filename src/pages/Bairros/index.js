@@ -2,7 +2,7 @@ import {React, useState, useEffect} from "react";
 import { useParams } from 'react-router-dom';
 import ListBairros from '../../components/ListBairros';
 import BairroDetail from '../../components/BairroDetail';
-import {UncontrolledCollapse} from 'reactstrap';
+import Charts from '../../components/Charts';
 
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -31,7 +31,6 @@ const Bairros = (props) => {
         setAcidentes(d);
     };
 
-
     // useEffect para chamar a função quando o componente for montado
     useEffect(() => {
         getAcidentes();
@@ -50,10 +49,11 @@ const Bairros = (props) => {
                 <div className = 'listbairrosmain col-lg-4'>
                     <ListBairros de={de} ate={ate} data={acidentes} selectedData={selectedData} />
                 </div>
-                <UncontrolledCollapse defaultOpen = {true} toggler="#bairro" className = 'bairrodetailmain col-lg-8'> 
+                <div className = 'bairrodetailmain col-lg-8'> 
                     <BairroDetail bairroAtual={bairroAtual} />
-                </UncontrolledCollapse>
+                </div>
             </div>
+            <Charts bairroAtual={bairroAtual}></Charts>
         </div>
     )
 }

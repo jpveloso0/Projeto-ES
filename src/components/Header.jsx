@@ -6,8 +6,10 @@ const Header = (props) => {
     const {titulo} = props
     const gitImage = process.env.PUBLIC_URL + '/img/github-logo.png'
     const homeImage = process.env.PUBLIC_URL + '/img/home.png'
+    const logoImage = process.env.PUBLIC_URL + '/img/logo.png'
     return (
         <header className = 'Header'>
+            <img className = 'logo' src={logoImage} alt="logo" />
             <h2>{titulo}</h2>
             <nav className='navUrl'>
                 <Link to='/' className = 'urls'>
