@@ -10,30 +10,31 @@ Início da Iteração | Término da iteração
 ### O que estava planejado
 | Atividade | Atribuição |
 | --- | --- |
-| Implementar Dashboards da base de dados. | `@dmca`, `@jpsmlv`, `@vlsf2` |
-| Adiantar construção do código do projeto (Back-end e Front-end). | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
-| Criação de Testes Unitários. | `@vlsf2`,`@jpsmlv`, `@dmca`  |
-| Repensar a identidade visual. | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
-| Criar um logo. |  `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2`  |
-
+| Manter o Trello atualizado. | `@dmca`, `@jpsmlv`, `@vlsf2` |
+| Adiantar todo o processo de desenvolvimento do projeto. | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
+| Manter atualizado o Github. | `@vlsf2`,`@jpsmlv`, `@dmca`  |
+| Realizar o Postmortem da Iteração 3. | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
+| Criar os dashboards. |  `@dmca`, `@jpsmlv`, `@vlsf2`  |
+| Mudar o design do website. |  `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2`  |
 
 ### O que foi feito
 | Atividade | Atribuição |
 | --- | --- |
-| Realização do Postmortem da Iteração 02. | `@dmca` |
+| Realização do Postmortem da Iteração 03. | `@dmca` |
 | Reunião para conversar a respeito do software. |  `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
-| Aprender e desenvolver rotas de paginação | `@vlsf2` |
-| Desenvolvimento do Back-End | `@jpsmlv` |
+| Criação da logo. | `@vlsf2` |
+| Dashboards aplicados. | `@vlsf2` |
+| Firebase conectado com o front-end. | `@vlsf2` |
 
 ### O que não foi feito
-* Implementação dos Dashboards da base de dados.
+* 2ª parte do website.
 * Alterações a respeito da identidade visual.
 
 ### Planejado para próxima iteração
 * Manter o Trello atualizado.
-* Realizar o Postmortem da Iteração 3.
+* Realizar o Postmortem da Iteração 4.
 * Manter atualizado o Github.
-* Adiantar todo o processo de desenvolvimento do projeto.
+* Continuar todo o processo de desenvolvimento do projeto.
 
 ### Lições aprendidas
 * Necessidade de uma organização do trabalho para distribuição de atividades.
