@@ -22,6 +22,7 @@ const Bairros = (props) => {
     async function getAcidentes()  {
         // get acidentes
         const data = await getDocs(caminhoCollection);
+        console.log('Fazendo requisição')
         var d = []
         var de_date = new Date(de)
         var ate_date = new Date(ate)
@@ -33,7 +34,6 @@ const Bairros = (props) => {
             } catch (error) {
              console.warn(error)   
             }
-            console.log(doc.data().data)
         });
         // após o request, é setado o d no state acidentes.
         setAcidentes(d);

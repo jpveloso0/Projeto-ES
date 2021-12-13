@@ -201,7 +201,6 @@ function ListBairros(props) {
           Carregando...
         </ListGroupItem>
       )}
-      {console.log('::::',currentData)}
     </ListGroup>
   );
 }
