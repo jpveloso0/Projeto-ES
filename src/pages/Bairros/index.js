@@ -23,9 +23,17 @@ const Bairros = (props) => {
         // get acidentes
         const data = await getDocs(caminhoCollection);
         var d = []
+        var de_date = new Date(de)
+        var ate_date = new Date(ate)
         data.forEach((doc) => {
             //doc.id
-            d.push(doc.data())
+            try {
+                if(de_date <= new Date(doc.data().data) && ate_date >= new Date(doc.data().data)){d.push(doc.data())}
+                else if(['', ' '].includes(doc.data().data)){d.push(doc.data())}
+            } catch (error) {
+             console.warn(error)   
+            }
+            console.log(doc.data().data)
         });
         // após o request, é setado o d no state acidentes.
         setAcidentes(d);

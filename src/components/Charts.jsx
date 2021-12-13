@@ -25,6 +25,11 @@ function Charts({bairroAtual}){
       ['Ônibus', bairroAtual && bairroAtual.qtd_onibus],
       ['Ciclomotor', bairroAtual && bairroAtual.qtd_ciclom]]
       }
+
+    var piewidth = 400;
+    var pieheight = 225;
+    var barwidth = 450;
+    var barheight = 200;
     
       return (
         <div className = 'charts'>
@@ -34,8 +39,8 @@ function Charts({bairroAtual}){
           data={vitimasdata()}
           options={{
             title: bairroAtual && 'Vítimas',
-            width: 400,
-            height: 250,
+            width: piewidth,
+            height: pieheight,
           }}
           rootProps={{ 'data-testid': '1' }}
         />
@@ -62,8 +67,8 @@ function Charts({bairroAtual}){
           ]}
           options={{
             title: bairroAtual && 'Acidentes por período do dia',
-            width: 500,
-            height: 200,
+            width: barwidth,
+            height: barheight,
             bar: { groupWidth: '95%' },
             legend: { position: 'none' },
           }}
@@ -77,8 +82,8 @@ function Charts({bairroAtual}){
           data={veiculosdata()}
           options={{
             title: bairroAtual && 'Veículos',
-            width: 400,
-            height: 250,
+            width: piewidth,
+            height: pieheight,
           }}
           rootProps={{ 'data-testid': '1' }}
         />

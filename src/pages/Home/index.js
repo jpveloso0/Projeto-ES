@@ -10,11 +10,13 @@ const Home = (props) => {
     const [de, setDe]   = useState('2021-01-01');
     const [ate, setAte] = useState('2021-12-01');    
     
+    const logoImage = process.env.PUBLIC_URL + '/img/Logo_blue.png'
     const propsTo = {
         pathname: `/bairros/${de}&${ate}`,
     }
     return (
         <section className = 'container-fluid mainNav'>
+            <img className = 'logo_home' src={logoImage} alt="logo" />
             <div className='inputs'>
                 <div>
                     <label htmlFor="de"><strong>De</strong></label>

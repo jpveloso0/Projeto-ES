@@ -1,13 +1,3 @@
-// import { db } from "./services/firebase";
-// import {
-//     collection,
-//     getDocs,
-//     addDoc,
-//     updateDoc,
-//     deleteDoc,
-//     doc,
-// } from "firebase/firestore";
-
 import './index.css';
 
 import React from "react";

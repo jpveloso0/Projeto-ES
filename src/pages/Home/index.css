@@ -1,11 +1,17 @@
 .mainNav{
     display: flex;
-    justify-content: center;
-    align-items: initial;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: center;
+}
+
+.logo_home{
+    height: 10rem;
+    margin-top: 2rem;
 }
 
 .inputs{
-    margin: 5rem 0 10rem 0;
+    margin: 1rem 0 17rem 0;
     background-color: var(--color_light);
     width: 60%;
     height: 3rem;
@@ -24,11 +30,23 @@ input, .button{
     height: 60%;
 }
 
-.button {
+button.button.btn.btn-secondary {
     background-color: var(--color_main);
+    border: 1px solid var(--color_details);
+    transition: .3s ease-out;
+}
+
+button.button.btn.btn-secondary:hover {
+    background-color: var(--color_details);
+    border: 1px solid rgb(14, 14, 14);
 }
 
 .button a{
+    color: black;
+    text-decoration: none;
+}
+
+.button a:hover{
     color: black;
     text-decoration: none;
 }

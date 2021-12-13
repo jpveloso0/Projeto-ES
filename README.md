@@ -1,6 +1,4 @@
-<img src="https://img.shields.io/static/v1?label=v0.5&message=Em desenvolvimento&color=9399ff&style=for-the-badge&logo=ghost"/>
-
-##### *Nome do projeto a definir*
+<img src="https://img.shields.io/static/v1?label=v1.0&message=Em desenvolvimento&color=9399ff&style=for-the-badge&logo=ghost"/>
 
 <p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#justificativa">Justificativa</a> • <a href="#história-do-usuário">História do Usuário</a> •  <a href="#arquitetura-da-aplicação">Arquitetura da Aplicação</a> • <a href="#screenshots">Screenshots</a> • </p>
 

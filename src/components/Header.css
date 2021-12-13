@@ -43,3 +43,11 @@ h2{
 .urls:hover {
     background-color: var(--color_secondary);
 }
+
+a{
+    color: var(--color_font)
+}
+
+a:hover{
+    color: var(--color_font)
+}
