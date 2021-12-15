@@ -17,7 +17,7 @@
 Nosso propósito, inicialmente, é apresentar para os usuários de maneira clara e intuitiva informações de sobre os acidentes de trânsito em Recife através da implementação da política brasileira de dados abertos.
 
 ## Arquitetura de Informação  Modelo ER
-https://github.com/jpveloso0/Projeto-ES/blob/main/Itera%C3%A7%C3%A3o%2003/homepage.jpg
+
 
 ## Deploy da Página
 Homepage
