@@ -17,7 +17,7 @@
 Nosso propósito, inicialmente, é apresentar para os usuários de maneira clara e intuitiva informações de sobre os acidentes de trânsito em Recife através da implementação da política brasileira de dados abertos.
 
 ## Arquitetura de Informação  Modelo ER
-
+https://github.com/jpveloso0/Projeto-ES/blob/main/Itera%C3%A7%C3%A3o%2003/homepage.jpg
 
 ## Deploy da Página
 Homepage
@@ -25,10 +25,10 @@ Homepage
   
 Página que apresenta informações sobre acidentes categorizados por bairro;
 Ao passar o mouse sobre um bairro (componente à esquerda), as informações mais detalhadas sobre este bairro são apresentadas no componente à direita
-![Ranking de bairros](https://github.com/jpveloso0/Projeto-ES/blob/main/Itera%C3%A7%C3%A3o%2003/page1.jpg)
+![Ranking de bairros](https://github.com/jpveloso0/Projeto-ES/blob/main/Itera%C3%A7%C3%A3o%2003/page2.jpg)
 
 Ao clicar em um bairro, o usuário será direcionado para uma página que apresenta informações sobre acidentes categorizados por rua deste bairro, além de dashboards de algumas estatísticas.
-![Estatísticas](https://github.com/jpveloso0/Projeto-ES/blob/main/Itera%C3%A7%C3%A3o%2003/page2.jpg)
+![Estatísticas](https://github.com/jpveloso0/Projeto-ES/blob/main/Itera%C3%A7%C3%A3o%2003/page1.jpg)
 
 
 ## Histórias Definidas
