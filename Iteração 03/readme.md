@@ -19,8 +19,16 @@ Nosso propósito, inicialmente, é apresentar para os usuários de maneira clara
 ## Arquitetura de Informação  Modelo ER
 
 
-## Deploy de Histórias de Usuários 
+## Deploy da Página
+Homepage
+![Homepage](https://github.com/jpveloso0/Projeto-ES/blob/main/Itera%C3%A7%C3%A3o%2003/homepage.jpg)
+  
+Página que apresenta informações sobre acidentes categorizados por bairro;
+Ao passar o mouse sobre um bairro (componente à esquerda), as informações mais detalhadas sobre este bairro são apresentadas no componente à direita
+![Ranking de bairros](https://github.com/jpveloso0/Projeto-ES/blob/main/Itera%C3%A7%C3%A3o%2003/page1.jpg)
 
+Ao clicar em um bairro, o usuário será direcionado para uma página que apresenta informações sobre acidentes categorizados por rua deste bairro, além de dashboards de algumas estatísticas.
+![https://github.com/jpveloso0/Projeto-ES/blob/main/Itera%C3%A7%C3%A3o%2003/page2.jpg)
 
 
 ## Histórias Definidas
@@ -40,7 +48,7 @@ Nosso propósito, inicialmente, é apresentar para os usuários de maneira clara
   - NodeJS      
 
 
-## Screenshots
+## Protótipo
 Homepage
 ![Homepage](https://github.com/jpveloso0/Projeto-ES/blob/main/Protótipo/Slide1.PNG)
 
