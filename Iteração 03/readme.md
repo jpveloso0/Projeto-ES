@@ -41,7 +41,8 @@ Ao clicar em um bairro, o usuário será direcionado para uma página que aprese
 
 * **Front-end**    
   - ReactJS      
-  - Bootstrap        
+  - Bootstrap 
+  - JS Charts
   
 * **Back-end**     
   - Firebase      
