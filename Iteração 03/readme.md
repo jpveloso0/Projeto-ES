@@ -2,9 +2,9 @@
 
 ##### *Nome do projeto a definir*
 
-<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#arquitetura-de-informação-modelo-er">Arquitetura de Informação  Modelo ER</a> • <a href="#deploy-de-histórias-de-usuários">Deploy de Histórias de Usuários</a> • <a href="#histórias-definidas">Histórias Definidas</a> • <a href="#arquitetura-da-aplicação">Arquitetura da Aplicação</a> • <a href="#screenshots">Screenshots</a> • </p>
+<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#arquitetura-de-informação-modelo-er">Arquitetura de Informação - Modelo ER</a> • <a href="#deploy-de-histórias-de-usuários">Histórias de Usuários</a> • <a href="#arquitetura-da-aplicação">Arquitetura da Aplicação</a> 
 
-# Projeto de Engenharia de Software - Acidentes de Trânsito Recife/PE - Iteração 02
+# Projeto de Engenharia de Software - Acidentes de Trânsito Recife/PE - Iteração 03
 
 ## Equipe
 - Vinícius Luiz da S. França
@@ -21,8 +21,7 @@ Nosso propósito, inicialmente, é apresentar para os usuários de maneira clara
 
 ## Deploy de Histórias de Usuários 
 
-```Como usuário, eu gostaria de ver o ranking de bairros do Recife com mais acidentes.```  
-```Como funcionário público de segurança, gostaria de entender estatisticamente como está sendo distribuído os acidentes na cidade do Recife. ```  
+
 
 ## Histórias Definidas
 
