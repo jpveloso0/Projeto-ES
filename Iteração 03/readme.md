@@ -2,7 +2,7 @@
 
 ##### *Nome do projeto a definir*
 
-<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#arquitetura-de-informação-modelo-er">Arquitetura de Informação - Modelo ER</a> • <a href="#deploy-de-histórias-de-usuários">Histórias de Usuários</a> • <a href="#arquitetura-da-aplicação">Arquitetura da Aplicação</a> 
+<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#arquitetura-de-informação-modelo-er">Arquitetura de Informação - Modelo ER</a> • <a href="#deploy-da-página">Deploy da Página</a> •  <a href="#deploy-de-histórias-de-usuários">Histórias de Usuários</a> • <a href="#arquitetura-da-aplicação">Arquitetura da Aplicação</a> 
 
 # Projeto de Engenharia de Software - Acidentes de Trânsito Recife/PE - Iteração 03
 
