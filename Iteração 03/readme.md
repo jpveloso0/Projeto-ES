@@ -28,7 +28,7 @@ Ao passar o mouse sobre um bairro (componente à esquerda), as informações mai
 ![Ranking de bairros](https://github.com/jpveloso0/Projeto-ES/blob/main/Itera%C3%A7%C3%A3o%2003/page1.jpg)
 
 Ao clicar em um bairro, o usuário será direcionado para uma página que apresenta informações sobre acidentes categorizados por rua deste bairro, além de dashboards de algumas estatísticas.
-![https://github.com/jpveloso0/Projeto-ES/blob/main/Itera%C3%A7%C3%A3o%2003/page2.jpg)
+![Estatísticas](https://github.com/jpveloso0/Projeto-ES/blob/main/Itera%C3%A7%C3%A3o%2003/page2.jpg)
 
 
 ## Histórias Definidas
