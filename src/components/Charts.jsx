@@ -10,9 +10,10 @@ function Charts({bairroAtual}){
         var totalvf = bairroAtual && bairroAtual.c_vitima_fatal;
         var totalsv = bairroAtual && bairroAtual.qtd - totalv;
         return [['Vítimas', '%'],
-        ['Vítimas', bairroAtual && totalv],
+        ['Sem vítimas', bairroAtual && totalsv],
         ['Vítimas fatais', bairroAtual && totalvf],
-        ['Sem vítimas', bairroAtual && totalsv]]
+        ['Vítimas', bairroAtual && totalv],
+        ]
       }
     
     const veiculosdata = () => {

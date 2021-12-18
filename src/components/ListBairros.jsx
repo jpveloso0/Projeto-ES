@@ -179,7 +179,6 @@ function ListBairros(props) {
   // useEffect para chamar a função groupByAcidentes() quando o componente for montado
   // toda vez que as props forem alteradas, ele chama a função groupByAcidentes
   // para filtrar com o reduce.
-
   useEffect(() => {
     groupbyAcidentes();
     return () => {
@@ -190,9 +189,18 @@ function ListBairros(props) {
   return (
     <ListGroup className="listgroup container-fluid">
        {/* STATE (currentData) sendo chamado no HTMl para poder fazer modificações no DOM */}
+       {currentData.length > 0 ? (
+          <ListGroupItem action key={0} id="bairro-total" className='text-center' tag="button" onClick={() => selectedData(currentData[0])}>
+            {currentData[0].bairro} - {currentData[0].qtd} ACIDENTES
+          </ListGroupItem>
+      ) : (
+        <ListGroupItem action id="bairro-total" tag="button">
+        </ListGroupItem>
+      )}
+
       {currentData.length > 0 ? (
         currentData.slice(1).map((item, index) => (
-          <ListGroupItem action key={index} id="bairro" tag="button" onClick={() => selectedData(item)}>
+          <ListGroupItem action key={index+1} id="bairro" tag="button" onClick={() => selectedData(item)}>
             {`${index+1}º`} {item.bairro} - {item.qtd} ACIDENTES
           </ListGroupItem>
         ))

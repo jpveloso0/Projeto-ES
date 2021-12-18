@@ -1,5 +1,6 @@
 import {React} from 'react';
-import {Table} from 'reactstrap'
+import {Table, Button} from 'reactstrap';
+import {Link} from 'react-router-dom';
 import './BairroDetail.css';
 
 function BairroDetail({bairroAtual}) {
@@ -7,6 +8,8 @@ function BairroDetail({bairroAtual}) {
   var acd_cruzamento = bairroAtual && (((bairroAtual.local_cruzamento)/(bairroAtual.local_cruzamento+bairroAtual.local_longo_via+bairroAtual.local_outros)))*100
   var acd_seca = bairroAtual && ((bairroAtual.pista_seca / (bairroAtual.pista_seca + bairroAtual.pista_molhada))*100)
   var acd_tempobom = bairroAtual && ((bairroAtual.tempo_bom / (bairroAtual.tempo_bom + bairroAtual.tempo_chuvoso + bairroAtual.tempo_outros))*100)
+  const propsTo = {
+    pathname: `/ruas/${bairroAtual && bairroAtual.bairro}`}
   
   return ( <>
             <div className='bairroDetail'>
@@ -83,6 +86,9 @@ function BairroDetail({bairroAtual}) {
                 </tr>
               </tbody>
               </Table>
+              <Button className='button' type = "submit">
+                <Link to={propsTo}><strong>Mais detalhes</strong></Link>
+              </Button>
             </div>
     </>
   )
