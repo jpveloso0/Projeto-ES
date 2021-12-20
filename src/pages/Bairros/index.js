@@ -17,12 +17,12 @@ const Bairros = (props) => {
     const [acidentes, setAcidentes] = useState();
     const [bairroAtual, setBairroAtual] = useState(null);
 
-    const caminhoCollection = collection(db, "acidentes_teste");
+    const caminhoCollection = collection(db, "acidentesfull");
 
     async function getAcidentes()  {
         // get acidentes
-        const data = await getDocs(caminhoCollection);
         console.log('Fazendo requisição')
+        const data = await getDocs(caminhoCollection);
         var d = []
         var de_date = new Date(de)
         var ate_date = new Date(ate)
@@ -53,6 +53,7 @@ const Bairros = (props) => {
     return (
         <div className = "App">
             <h2 className='titulo text-center'><strong>RANKING DE ACIDENTES POR BAIRROS</strong></h2>
+            <p className='subtitulo text-center'>Dados referentes ao período entre {de} e {ate}</p>
             <div className = 'row'>
                 <div className = 'listbairrosmain col-lg-4'>
                     <ListBairros de={de} ate={ate} data={acidentes} selectedData={selectedData} />

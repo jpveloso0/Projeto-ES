@@ -1,6 +1,5 @@
 import {React} from 'react';
-import {Table, Button} from 'reactstrap';
-import {Link} from 'react-router-dom';
+import {Table} from 'reactstrap';
 import './BairroDetail.css';
 
 function BairroDetail({bairroAtual}) {
@@ -86,9 +85,9 @@ function BairroDetail({bairroAtual}) {
                 </tr>
               </tbody>
               </Table>
-              <Button className='button' type = "submit">
+              {/* <Button className='button' type = "submit">
                 <Link to={propsTo}><strong>Mais detalhes</strong></Link>
-              </Button>
+              </Button> */}
             </div>
     </>
   )
