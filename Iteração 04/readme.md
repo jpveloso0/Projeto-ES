@@ -60,12 +60,3 @@ Ao passar o mouse sobre um bairro (componente à esquerda), as informações mai
 Ao clicar em um bairro, o usuário será direcionado para uma página que apresenta informações sobre acidentes categorizados por rua deste bairro
 ![Ranking de bairros](https://github.com/jpveloso0/Projeto-ES/blob/main/Protótipo/Slide3.PNG)
 
-Página que apresenta informações sobre acidentes categorizados por rua deste bairro
-Ao passar o mouse sobre uma rua (componente à esquerda), as informações mais detalhadas sobre esta rua são apresentadas no componente à direita
-![Ranking de ruas do bairro](https://github.com/jpveloso0/Projeto-ES/blob/main/Protótipo/Slide4.PNG)
-
-Ao clicar em um rua, o usuário será direcionado para uma página que apresenta uma mapa da localização desta rua
-![Ranking de ruas do bairro](https://github.com/jpveloso0/Projeto-ES/blob/main/Protótipo/Slide5.PNG)
-
-Página que apresenta o mapa da localização da rua
-![Mapa](https://github.com/jpveloso0/Projeto-ES/blob/main/Protótipo/Slide6.PNG)
