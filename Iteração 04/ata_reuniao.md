@@ -4,7 +4,7 @@
 
 Data         | Local
 ------------ | -------------
-05/12/2021   | Google Meet
+21/12/2021   | Google Meet
 
 
 ### Participantes
@@ -15,22 +15,19 @@ Data         | Local
 * Luis Gabriel
 
 ### Objetivos
-* Produzir o software do projeto.
-* Conversar a respeito sobre o escopo.
-* Mudar o forma de como vamos dar o andamento do projeto.
-* Priorizar atividades.
+* Realização de Testes.
+* Criação dos slides.
+* Produção das atividades.
 
 ### Tópicos Discutidos
-* A forma como será mostrada as informações do projeto.
-* Melhorias a serem feitas.
-* Discussão baseada no reunião com o professor no dia 01/12/2021.
-* Quais informaçõe estatística iremos mostrar.
+* Temas a serem abordados na apresentação.
+* Definição das atividades respectivas para cada integrantes.
 
 ### Ações a serem tomadas
 Ação         | Responsável   
 ------------ | ------------- 
-João Pedro | Continuar a construção do Back-End
-Vinicius Luiz  | Continuar a construção do Front-End
+João Pedro | Foco no TDD
+Vinicius Luiz  | Finalizar a construção do Front-End
 Daniel Moraes | Auxiliar no processo de construção do software
 Alexandro Henrique | Auxiliar no processo de construção do software
 Luis Gabriel | Auxiliar no processo de construção do software
