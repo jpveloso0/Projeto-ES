@@ -4,25 +4,25 @@
 
 Início da Iteração | Término da iteração
 ------------ | -------------
-02/12/2021 | 15/12/2021
+16/12/2021 | 22/12/2021
 
 
 ### O que estava planejado
 | Atividade | Atribuição |
 | --- | --- |
 | Manter o Trello atualizado. | `@dmca`, `@jpsmlv`, `@vlsf2` |
-| Adiantar todo o processo de desenvolvimento do projeto. | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
+| Realizar o Postmortem da Iteração 4. | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
 | Manter atualizado o Github. | `@vlsf2`,`@jpsmlv`, `@dmca`  |
-| Realizar o Postmortem da Iteração 3. | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
-| Criar os dashboards. |  `@dmca`, `@jpsmlv`, `@vlsf2`  |
-| Mudar o design do website. |  `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2`  |
+| Continuar todo o processo de desenvolvimento do projeto. | `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
+| Realizar testes. |  `@dmca`, `@jpsmlv`, `@vlsf2`  |
+| Corrigir erros. |  `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2`  |
 
 ### O que foi feito
 | Atividade | Atribuição |
 | --- | --- |
-| Realização do Postmortem da Iteração 03. | `@dmca` |
+| Realização do Postmortem da Iteração 04. | `@dmca` |
 | Reunião para conversar a respeito do software. |  `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
-| Criação da logo. | `@vlsf2` |
+| Realização dos testes |  `@dmca`, `@jpsmlv`, `@lgllx`, `@ahasl`, `@vlsf2` |
 | Dashboards aplicados. | `@vlsf2` |
 | Firebase conectado com o front-end. | `@vlsf2` |
 
@@ -33,7 +33,6 @@ Início da Iteração | Término da iteração
 ### Planejado para próxima iteração
 * Manter o Trello atualizado.
 * Realizar o Postmortem da Iteração 4.
-* Manter atualizado o Github.
 * Continuar todo o processo de desenvolvimento do projeto.
 
 ### Lições aprendidas
