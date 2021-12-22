@@ -17,11 +17,11 @@
 Nosso propósito, inicialmente, é apresentar para os usuários de maneira clara e intuitiva informações de sobre os acidentes de trânsito em Recife através da implementação da política brasileira de dados abertos.
 
 ## Documentação do Projeto
-  1 - Para poder rodar o projeto precisa instalar o Node.js, VScode, Firebase e React.
-  2 - Dar o Git Clone utilizando o link do repositório do projeto.
-  3 - Abrir a pasta que do repositório da sua máquina no VScode.
-  4 - No terminal do VScode executar `npm install`.
-  5 - Caso tenha que instalar algumas bibliotecas específicas do React, instale utilizando npm install.
+  1 - Para poder rodar o projeto precisa instalar o Node.js, VScode, Firebase e React.  
+  2 - Dar o Git Clone utilizando o link do repositório do projeto.  
+  3 - Abrir a pasta que do repositório da sua máquina no VScode.  
+  4 - No terminal do VScode executar `npm install`.  
+  5 - Caso tenha que instalar algumas bibliotecas específicas do React, instale utilizando npm install.  
 
 
 ## Deploy da Página
