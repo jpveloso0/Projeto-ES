@@ -2,7 +2,7 @@
 
 ##### *Nome do projeto a definir*
 
-<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> •   <a href="#arquitetura-de-informação-modelo-er">Arquitetura de Informação - Modelo ER</a> • <a href="#deploy-da-página">Deploy da Página</a> •  <a href="#histórias-definidas">Histórias Definidas</a> • <a href="#arquitetura-da-aplicação">Arquitetura da Aplicação</a> 
+<p align="center">  <a href="#equipe">Equipe</a> •  <a href="#objetivo">Objetivo</a> • <a href="#documentação-do-projeto">Documentação do Projeto</a> • <a href="#deploy-da-página">Deploy da Página</a> •  <a href="#histórias-definidas">Histórias Definidas</a> • <a href="#arquitetura-da-aplicação">Arquitetura da Aplicação</a> 
 
 # Projeto de Engenharia de Software - Acidentes de Trânsito Recife/PE - Iteração 04
 
@@ -16,7 +16,12 @@
 ## Objetivo
 Nosso propósito, inicialmente, é apresentar para os usuários de maneira clara e intuitiva informações de sobre os acidentes de trânsito em Recife através da implementação da política brasileira de dados abertos.
 
-## Arquitetura de Informação  Modelo ER
+## Documentação do Projeto
+  1 - Para poder rodar o projeto precisa instalar o Node.js, VScode, Firebase e React.  
+  2 - Dar o Git Clone utilizando o link do repositório do projeto.  
+  3 - Abrir a pasta que do repositório da sua máquina no VScode.  
+  4 - No terminal do VScode executar `npm install`.  
+  5 - Caso tenha que instalar algumas bibliotecas específicas do React, instale utilizando npm install.  
 
 
 ## Deploy da Página
@@ -42,7 +47,7 @@ Ao clicar em um bairro, o usuário será direcionado para uma página que aprese
 * **Front-end**    
   - ReactJS      
   - Bootstrap 
-  - JS Charts
+  - React Google Charts
   
 * **Back-end**     
   - Firebase      
