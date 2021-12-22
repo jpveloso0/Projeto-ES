@@ -1,6 +1,7 @@
 {
   "name": "projeto-es",
   "version": "0.1.0",
+  "homepage":"./",
   "private": true,
   "dependencies": {
     "@firebase/app": "^0.7.10",
