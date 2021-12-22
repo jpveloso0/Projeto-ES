@@ -5,6 +5,7 @@ import './Charts.css';
 
 
 function Charts({bairroAtual}){
+  console.log(bairroAtual || false)
     const vitimasdata = () => {
         var totalv = bairroAtual && bairroAtual.c_vitima;
         var totalvf = bairroAtual && bairroAtual.c_vitima_fatal;
@@ -45,7 +46,7 @@ function Charts({bairroAtual}){
           rootProps={{ 'data-testid': '1' }}
         />
 
-        <Chart
+        {bairroAtual || false ? (<Chart
           chartType="BarChart"
           loader={<Spinner>Aguarde...</Spinner>}
           data={[
@@ -60,10 +61,10 @@ function Charts({bairroAtual}){
                 calc: 'stringify',
               },
             ],
-            ['Manhã', bairroAtual && bairroAtual.periodo_manha, '#7FB3D5'],
-            ['Tarde', bairroAtual && bairroAtual.periodo_tarde, '#2980B9'],
-            ['Noite', bairroAtual && bairroAtual.periodo_noite, '#154360'],
-            ['Madrugada', bairroAtual && bairroAtual.periodo_madrugada, '#17202A'],
+            ['Manhã', bairroAtual && bairroAtual.periodo_manha, '#7FB3D5', bairroAtual && bairroAtual.periodo_manha],
+            ['Tarde', bairroAtual && bairroAtual.periodo_tarde, '#2980B9', bairroAtual && bairroAtual.periodo_tarde],
+            ['Noite', bairroAtual && bairroAtual.periodo_noite, '#154360', bairroAtual && bairroAtual.periodo_noite],
+            ['Madrugada', bairroAtual && bairroAtual.periodo_madrugada, '#17202A', bairroAtual && bairroAtual.periodo_madrugada],
           ]}
           options={{
             title: bairroAtual && 'Acidentes por período do dia',
@@ -72,9 +73,8 @@ function Charts({bairroAtual}){
             bar: { groupWidth: '95%' },
             legend: { position: 'none' },
           }}
-          // For tests
-          rootProps={{ 'data-testid': '6' }}
-        />
+        />) : (<></>)}
+        
 
         <Chart
           chartType="PieChart"

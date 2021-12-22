@@ -55,10 +55,10 @@ const Bairros = (props) => {
             <h2 className='titulo text-center'><strong>RANKING DE ACIDENTES POR BAIRROS</strong></h2>
             <p className='subtitulo text-center'>Dados referentes ao período entre {de} e {ate}</p>
             <div className = 'row'>
-                <div className = 'listbairrosmain col-lg-4'>
+                <div className = 'listbairrosmain col-lg-6'>
                     <ListBairros de={de} ate={ate} data={acidentes} selectedData={selectedData} />
                 </div>
-                <div className = 'bairrodetailmain col-lg-8'> 
+                <div className = 'bairrodetailmain col-lg-6'> 
                     <BairroDetail bairroAtual={bairroAtual} />
                 </div>
             </div>
