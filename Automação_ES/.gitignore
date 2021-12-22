@@ -1,0 +1,14 @@
+test/log/log.html
+test/log/output.xml
+test/log/report.html
+test/logs
+*.png
+*-workspace
+*.mp4
+*.mkv
+*.log
+*.html
+*.js
+*.css
+*.json
+*.ico

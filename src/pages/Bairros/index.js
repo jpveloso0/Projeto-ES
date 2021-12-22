@@ -17,7 +17,7 @@ const Bairros = () => {
     const [acidentes, setAcidentes] = useState();
     const [bairroAtual, setBairroAtual] = useState(null);
 
-    const caminhoCollection = collection(db, "acidentes_teste");
+    const caminhoCollection = collection(db, "acidentesfull");
 
     async function getAcidentes()  {
         // get acidentes

@@ -1,0 +1,5 @@
+config:
+  browser:
+    name: chrome
+    url: http://localhost:3000/
+    implicit_wait: 30
