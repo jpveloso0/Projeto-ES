@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { db } from '../../services/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 
-const Bairros = (props) => {
+const Bairros = () => {
     const {de} = useParams()
     const {ate} = useParams()
     // useState para alterar os dados após o request
@@ -32,7 +32,7 @@ const Bairros = (props) => {
                 if(de_date <= new Date(doc.data().data) && ate_date >= new Date(doc.data().data)){d.push(doc.data())}
                 else if(['', ' '].includes(doc.data().data)){d.push(doc.data())}
             } catch (error) {
-             console.warn(error)   
+             console.warn(error)
             }
         });
         // após o request, é setado o d no state acidentes.
@@ -58,7 +58,7 @@ const Bairros = (props) => {
                 <div className = 'listbairrosmain col-lg-6'>
                     <ListBairros de={de} ate={ate} data={acidentes} selectedData={selectedData} />
                 </div>
-                <div className = 'bairrodetailmain col-lg-6'> 
+                <div className = 'bairrodetailmain col-lg-6'>
                     <BairroDetail bairroAtual={bairroAtual} />
                 </div>
             </div>
@@ -66,5 +66,5 @@ const Bairros = (props) => {
         </div>
     )
 }
- 
+
 export default Bairros

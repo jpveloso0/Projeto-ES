@@ -1,6 +1,9 @@
 footer{
-    margin:0;
+    margin:auto;
+    width: 100%;
+    bottom:0;
     padding: 0;
+    position: fixed;
     height: 3rem;
     display: flex;
     align-items: center;

@@ -7,13 +7,14 @@ function BairroDetail({bairroAtual}) {
   var acd_cruzamento = bairroAtual && (((bairroAtual.local_cruzamento)/(bairroAtual.local_cruzamento+bairroAtual.local_longo_via+bairroAtual.local_outros)))*100
   var acd_seca = bairroAtual && ((bairroAtual.pista_seca / (bairroAtual.pista_seca + bairroAtual.pista_molhada))*100)
   var acd_tempobom = bairroAtual && ((bairroAtual.tempo_bom / (bairroAtual.tempo_bom + bairroAtual.tempo_chuvoso + bairroAtual.tempo_outros))*100)
+  // eslint-disable-next-line no-unused-vars
   const propsTo = {
     pathname: `/ruas/${bairroAtual && bairroAtual.bairro}`}
-  
+
   return ( <>
             <div className='bairroDetail'>
               <h5 className='text-center'>{bairroAtual && bairroAtual.bairro}</h5>
-              <Table 
+              <Table
               className = 'table-sm'
               borderless
               hover
@@ -29,7 +30,7 @@ function BairroDetail({bairroAtual}) {
                 </tr>
                 <tr>
                   <td>
-                    Acidentes em cruzamento 
+                    Acidentes em cruzamento
                   </td>
                   <td >
                     {bairroAtual && acd_cruzamento.toFixed(1)}%
@@ -37,7 +38,7 @@ function BairroDetail({bairroAtual}) {
                 </tr>
                 <tr>
                   <td>
-                    Acidentes em pista seca 
+                    Acidentes em pista seca
                   </td>
                   <td >
                     {bairroAtual && acd_seca.toFixed(1)}%
@@ -45,7 +46,7 @@ function BairroDetail({bairroAtual}) {
                 </tr>
                 <tr>
                   <td>
-                    Acidentes em clima bom 
+                    Acidentes em clima bom
                   </td>
                   <td >
                   {bairroAtual && acd_tempobom.toFixed(1)}%

@@ -28,6 +28,7 @@ input, .button{
     border: none;
     border-radius: 3px;
     height: 60%;
+    text-align: center;
 }
 
 button.button.btn.btn-secondary {
@@ -56,6 +57,7 @@ button.button.btn.btn-secondary:hover {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     height: 1.7rem;
+    justify-content: center;
 }
 
 label{
