@@ -16,7 +16,7 @@
 ## Objetivo
 Nosso propósito, inicialmente, é apresentar para os usuários de maneira clara e intuitiva informações de sobre os acidentes de trânsito em Recife através da implementação da política brasileira de dados abertos.
 
-## Arquitetura de Informação  Modelo ER
+## Documentação do Projeto
 
 
 ## Deploy da Página
