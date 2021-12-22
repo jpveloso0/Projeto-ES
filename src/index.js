@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 const App = () => {
     return ( 
         <BrowserRouter className = "App" >
-            <Header titulo = { "Acidentes de Trânsito Recife/PE" }/> 
+            <Header titulo = { "Recife STATS" }/> 
             <Routes/>
             <Footer desc = { 'Página desenvolvida utilizando ReactJs & NodeJS' }/>
         </BrowserRouter>

@@ -201,7 +201,7 @@ function ListBairros(props) {
       {currentData.length > 0 ? (
         currentData.slice(1).map((item, index) => (
           <ListGroupItem action key={index+1} id="bairro" tag="button" onClick={() => selectedData(item)}>
-            {`${index+1}º`} {item.bairro} - {item.qtd} ACIDENTES
+            {item.qtd > 1 ? (<>{index+1}º {item.bairro} - {item.qtd} ACIDENTES</>) : ((<>{index+1}º {item.bairro} - {item.qtd} ACIDENTE</>))}
           </ListGroupItem>
         ))
       ) : (

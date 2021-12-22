@@ -29,7 +29,7 @@ function BairroDetail({bairroAtual}) {
                 </tr>
                 <tr>
                   <td>
-                    Acidentes em cruzamento (%)
+                    Acidentes em cruzamento 
                   </td>
                   <td >
                     {bairroAtual && acd_cruzamento.toFixed(1)}%
@@ -37,7 +37,7 @@ function BairroDetail({bairroAtual}) {
                 </tr>
                 <tr>
                   <td>
-                    Acidentes em pista seca (%)
+                    Acidentes em pista seca 
                   </td>
                   <td >
                     {bairroAtual && acd_seca.toFixed(1)}%
@@ -45,7 +45,7 @@ function BairroDetail({bairroAtual}) {
                 </tr>
                 <tr>
                   <td>
-                    Acidentes em clima bom (%)
+                    Acidentes em clima bom 
                   </td>
                   <td >
                   {bairroAtual && acd_tempobom.toFixed(1)}%

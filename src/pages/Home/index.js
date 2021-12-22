@@ -9,6 +9,27 @@ const Home = (props) => {
 
     const [de, setDe]   = useState('2021-01-01');
     const [ate, setAte] = useState('2021-12-01');    
+
+    const validaData = () => {
+        const min = Date.parse('2019-01-01')
+        const max = Date.parse('2021-12-31')
+        const de_date = Date.parse(de)
+        const ate_date = Date.parse(ate)
+        const invalidate = [Date.parse('2019-02-30'), Date.parse('2019-02-31'), Date.parse('2020-02-30'), Date.parse('2020-02-31'), Date.parse('2021-02-30'), Date.parse('2021-02-31')]
+        //verificar se data 'de' é maior que data 'até'
+        if (ate_date < de_date){
+            return false
+        }
+        //verificar se data está entre 2019 e 2021
+        else if(!(de_date >= min) || !(de_date <= max)){
+            return false
+        }
+        else if(!(ate_date >= min) || !(ate_date <= max)){
+            return false
+        }
+        else if(invalidate.includes(de_date) || invalidate.includes(ate_date)){return false}
+        return true
+    }
     
     const logoImage = process.env.PUBLIC_URL + '/img/Logo_blue.png'
     const propsTo = {
@@ -28,7 +49,7 @@ const Home = (props) => {
                 </div>
                 <div>
                     <Button className='button' type = "submit">
-                        <Link to={propsTo}><strong>Buscar</strong></Link>
+                        {validaData() ? (<Link to={propsTo}><strong>Buscar</strong></Link>) : (<strong>Data inválida</strong>)}
                     </Button>
                 </div>
             </div>

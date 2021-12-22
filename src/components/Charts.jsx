@@ -22,7 +22,6 @@ function Charts({bairroAtual}){
       ['Moto', bairroAtual && bairroAtual.qtd_moto],
       ['Caminhão', bairroAtual && bairroAtual.qtd_caminhao],
       ['Ciclista', bairroAtual && bairroAtual.qtd_ciclista],
-      ['Pedestre', bairroAtual && bairroAtual.qtd_pedestre],
       ['Ônibus', bairroAtual && bairroAtual.qtd_onibus],
       ['Ciclomotor', bairroAtual && bairroAtual.qtd_ciclom]]
       }
@@ -61,10 +60,10 @@ function Charts({bairroAtual}){
                 calc: 'stringify',
               },
             ],
-            ['Manhã', bairroAtual && bairroAtual.periodo_manha, '#7FB3D5', null],
-            ['Tarde', bairroAtual && bairroAtual.periodo_tarde, '#2980B9', null],
-            ['Noite', bairroAtual && bairroAtual.periodo_noite, '#154360', null],
-            ['Madrugada', bairroAtual && bairroAtual.periodo_madrugada, '#17202A', null],
+            ['Manhã', bairroAtual && bairroAtual.periodo_manha, '#7FB3D5'],
+            ['Tarde', bairroAtual && bairroAtual.periodo_tarde, '#2980B9'],
+            ['Noite', bairroAtual && bairroAtual.periodo_noite, '#154360'],
+            ['Madrugada', bairroAtual && bairroAtual.periodo_madrugada, '#17202A'],
           ]}
           options={{
             title: bairroAtual && 'Acidentes por período do dia',

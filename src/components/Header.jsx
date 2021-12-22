@@ -9,8 +9,10 @@ const Header = (props) => {
     const logoImage = process.env.PUBLIC_URL + '/img/logo.png'
     return (
         <header className = 'Header'>
-            <img className = 'logo' src={logoImage} alt="logo" />
-            <h2>{titulo}</h2>
+            <div className = 'imagotipo'>
+                <img className = 'logo' src={logoImage} alt="logo" />
+                <h3>{titulo}</h3>
+            </div>
             <nav className='navUrl'>
                 <Link to='/' className = 'urls'>
                     <img src={homeImage} alt="GitHub" width="23" height="23"/>
@@ -18,7 +20,6 @@ const Header = (props) => {
                 <a href="https://github.com/jpveloso0/Projeto-ES" target="_blank" rel="noopener noreferrer" className = 'urls'>
                     <img src={gitImage} alt="GitHub" width="25" height="25"/>
                 </a>
-                <a className = 'urls' href="https://github.com/jpveloso0/Projeto-ES">Sobre nós</a>
             </nav>
         </header>
     )
