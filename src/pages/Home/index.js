@@ -31,7 +31,7 @@ const Home = (props) => {
         return true
     }
     
-    const logoImage = process.env.PUBLIC_URL + '/img/Logo_blue.png'
+    const logoImage = process.env.PUBLIC_URL + '/img/logo_blue.png'
     const propsTo = {
         pathname: `/bairros/${de}&${ate}`,
     }

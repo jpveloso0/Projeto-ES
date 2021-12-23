@@ -13,7 +13,7 @@ const App = () => {
         <BrowserRouter className = "App" >
             <Header titulo = { "Recife STATS" }/> 
             <Routes/>
-            <Footer desc = { 'Página desenvolvida utilizando ReactJs & NodeJS' }/>
+            <Footer desc = { 'Página desenvolvida utilizando ReactJs & NodeJS'} subdesc={'Os dados foram limitados no período de jul/2021 para não exceder limite de requisição'}/>
         </BrowserRouter>
     )
 }

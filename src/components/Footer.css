@@ -6,8 +6,14 @@ footer{
     position: fixed;
     height: 3rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--color_main);
     color: var(--color_font);
+}
+
+p{
+    margin:0;
+    padding: 0;
 }

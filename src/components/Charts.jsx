@@ -5,7 +5,6 @@ import './Charts.css';
 
 
 function Charts({bairroAtual}){
-  console.log(bairroAtual || false)
     const vitimasdata = () => {
         var totalv = bairroAtual && bairroAtual.c_vitima;
         var totalvf = bairroAtual && bairroAtual.c_vitima_fatal;

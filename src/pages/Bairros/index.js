@@ -21,7 +21,6 @@ const Bairros = () => {
 
     async function getAcidentes()  {
         // get acidentes
-        console.log('Fazendo requisição')
         const data = await getDocs(caminhoCollection);
         var d = []
         var de_date = new Date(de)
